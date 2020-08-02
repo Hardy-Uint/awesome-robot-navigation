@@ -4,9 +4,9 @@ Paper list for robot visual navigation
 Quick jump: 
 
 - Important Author/Lab:
-	- [Saurabh Gupta](saurabh-gupta-uiuc)
-	- [SVL Lab](svl-lab-stanford)
-	- [BAIR](bair-kerkeley)
+	- [Saurabh Gupta](#saurabh-gupta-uiuc)
+	- [SVL Lab](#svl-lab-stanford)
+	- [BAIR](#bair-kerkeley)
 
 ## Important Author/Lab
 
