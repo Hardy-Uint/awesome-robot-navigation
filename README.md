@@ -1,14 +1,82 @@
 # awesome-robot-navigation
-Paper list for robot visual navigation
+**> Non-exhaustive paper list for robot visual navigation (mainly for indoor scenes)**
 
 Quick jump: 
 
-- Important Author/Lab:
+- [Survey](#survey)
+- [Simulator](#simulator)
+- [Visual Navigation](#visual-navigation)
+- [Visual Semantic Navigation](#visual-semantic-navigation)
+- [Room Navigation](#room-navigation)
+- [Vision-and-Language Navigation](#vision-and-language-navigation)
+- [Hardware Deployment](#hardware-deployment)
+- [Some Research Groups](#some-research-groups):
+	- AllenAI
 	- [Saurabh Gupta](#saurabh-gupta-uiuc)
 	- [SVL Lab](#svl-lab-stanford)
-	- [BAIR](#bair-kerkeley)
+	- [BAIR](#berkeley-ai-research)
 
-## Important Author/Lab
+## Survey
+
+* Visual Navigation for Mobile Robots: A Survey. Journal of Intelligent and Robotic Systems, 2008
+* On Evaluation of Embodied Navigation Agents. Arxiv 2018
+* From Seeing to Moving: A Survey on Learning for Visual Indoor Navigation (VIN). Arxiv 2020
+
+## Simulator
+
+* **AI2-THOR** [[Website](https://ai2thor.allenai.org/)] [[Github](https://github.com/allenai/ai2thor)] [[Challenge@CVPR2020](https://github.com/allenai/robothor-challenge)]
+  * Maintainer: Allen Institute for Artificial Intelligence 
+  * AI2-THOR: An interactive 3D environment for visual AI. Arxiv 2017
+  * RoboTHOR: An Open Simulation-to-Real Embodied AI Platform. CVPR 2020
+* **Gibson** [[Website](http://svl.stanford.edu/igibson/)] [[Github](https://github.com/StanfordVL/iGibson)] [[Challenge@CVPR2020](https://github.com/StanfordVL/GibsonSim2RealChallenge)]
+  * Maintainer: Stanford SVL Lab
+  * Gibson Env: real-world perception for embodied agents. CVPR 2018
+  * Interactive Gibson: A Benchmark for Interactive Navigation in Cluttered Environments. ICRA 2020 (RA-L)
+* **Habitat** [[Website](https://aihabitat.org/)] [[Github/Habitat_lab](https://github.com/facebookresearch/habitat-lab)] [[Github/Habitat_sim](https://github.com/facebookresearch/habitat-sim)] [[Challenge@CVPR2020](https://github.com/facebookresearch/habitat-challenge)]
+  * Maintainer: Facebook
+  * Habitat: A Platform for Embodied AI Research. ICCV 2019
+* **House3D** [[Github](https://github.com/facebookresearch/House3D)]
+  * Maintainer: Facebook
+  * Building Generalization Agents with a Realistic and Rich 3D Environment. Arxiv 2018
+* **Matterport 3D** [[Website](https://niessner.github.io/Matterport/)] [[Github](https://github.com/niessner/Matterport)]
+  * Maintainer: Princeton & Stanford & TUM
+  * Matterport3D: Learning from RGB-D Data in Indoor Environments. 3DV 2017
+
+
+## Visual Navigation
+
+* Target-driven visual navigation in indoor scenes using deep reinforcement learning. ICRA 2017
+
+## Visual Semantic Navigation
+
+* Visual Semantic Navigation using Scene Priors. ICLR 2019
+* Visual Representations for Semantic Target Driven Navigation. ICRA 2019
+* Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning. CVPR 2019 
+  * [[code](https://github.com/allenai/savn)]
+* Object Goal Navigation using Goal-Oriented Semantic Exploration. ECCV 2020
+* Improving Target-driven Visual Navigation with Attention on 3D Spatial Relationships. Arxiv 2020
+* Semantic Visual Navigation by Watching YouTube Videos. Arxiv 2020
+* Target driven visual navigation exploiting object relationships.  Arxiv 2020
+
+## Room Navigation
+
+* Building Generalization Agents with a Realistic and Rich 3D Environment. Arxiv 2018
+* Bayesian Relational Memory for Semantic Visual Navigation. ICCV 2019
+
+## Neural Exploration
+
+* Learning to Explore using Active Neural SLAM. ICLR 2020
+
+## Vision-and-Language Navigation
+
+* ...
+
+
+## Hardware Deployment
+
+* ...
+
+## Some Research Groups
 
 ### Saurabh Gupta (UIUC)
 
@@ -62,7 +130,7 @@ Quick jump:
 * [LOOK, LISTEN, AND ACT: TOWARDS AUDIO-VISUAL EMBODIED NAVIGATION](https://jiajunwu.com/papers/avn_icra.pdf) ICRA 2020
   * Chuang Gan*, Yiwei Zhang*, Jiajun Wu, Boqing Gong, Joshua B. Tenenbaum
 
-### BAIR (Berkeley)
+### Berkeley AI Research
 
 * [BADGR: An Autonomous Self-Supervised Learning-Based Navigation System](https://arxiv.org/pdf/2002.05700.pdf) Arxiv 2020
   * Gregory Kahn, Pieter Abbeel, Sergey Levine 
@@ -72,3 +140,8 @@ Quick jump:
   * Gregory Kahn, Adam Villaflor, Bosen Ding, Pieter Abbeel, Sergey Levine 
 * [PLATO: Policy Learning using Adaptive Trajectory Optimization](http://arxiv.org/pdf/1603.00622) ICRA 2017
   * Gregory Kahn, Tianhao Zhang, Sergey Levine, Pieter Abbeel 
+
+### FAIR
+
+### AllenAI
+
